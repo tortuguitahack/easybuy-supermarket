@@ -1,0 +1,56 @@
+ "gateways": [
+        {
+            "provider": "Stripe",
+            "currency": "USD",
+            "destination_account": "https://buy.stripe.com/dRmcN54TZfLA0Ij4C89Ve05",
+            "payout_schedule": "daily"
+        },
+        {
+            "provider": "KucoinPay",
+            "key": "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",
+            "secret": "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"
+        },
+        {
+            "provider": "Crypto",
+            "wallets": {
+                "USDC": "0xeBe965EFe1ab53d2da915134d72e5BdBd5E3C053",
+                "USDT": "0xeBe965EFe1ab53d2da915134d72e5BdBd5E3C053",
+                "BTC": "bc1qjjgsx3lwa0wz59l89htcpr28j5s7dtmv99fmw0",
+                "ETH": "0x2F4bc6f77719AB99BCd6a9b553729bB96C9B8c22"
+            },
+            "blockchain_api_key": "40c77e88-b4ef-43bc-b2ed-14e4abc93fc6"
+        },
+        {
+            "provider": "BankTransfer",
+            "accounts": {
+                "USA": {
+                    "holder": "Diego Edgardo Cortez Yañez",
+                    "routing": "101019644",
+                    "account": "219449048779",
+                    "bank": "Lead Bank",
+                    "type": "CHECKING"
+                },
+                "Europe": {
+                    "holder": "Diego Edgardo Cortez Yañez",
+                    "iban": "MT12CFTE28004000000000005456093",
+                    "bic": "CFTEMTM1XXX",
+                    "bank": "OPENPAYD MALTA"
+                },
+                "Luxembourg": {
+                    "holder": "Diego Edgardo Cortez Yañez",
+                    "iban": "LU344080000044110945",
+                    "bic": "BCIRLULL",
+                    "bank": "Banking Circle"
+                },
+                "Bolivia": {
+                    "holder": "DIEGO EDGARDO CORTEZ YAÑEZ",
+                    "account": "4069474188",
+                    "bank": "Banco Mercantil Santa Cruz",
+                    "type": "Caja de Ahorro",
+                    "id": "5808841TJ"
+                }
+            }
+        }
+    ],
+    "emergency_stop": false
+}
